@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Mahasiswa</title>
+</head>
+<body>
+    <h2>Form Mahasiswa</h2>
+    <form action="proses.php" method="POST">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama" required></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td><input type="number" name="nim" required></td>
+            </tr>
+            <tr>
+                <td>Tanggal</td>
+                <td><input type="date" name="tanggal" required></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat" cols="21" rows="5" required></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Simpan"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
